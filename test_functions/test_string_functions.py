@@ -1,10 +1,11 @@
 import unittest
-from string_functions import multiply_string
+from topic3 import string_functions
+from topic3.string_functions import multiply_string
 
 
 class MyTestCase(unittest.TestCase):
-    def test_something(self):
-        self.assertEqual(glueglueglueglueglueglueglue, string_functions.multiply_string(7))
+    def test_word_glue(self):
+        self.assertEqual(multiply_string.string_functions)
 
 
 if __name__ == '__main__':
